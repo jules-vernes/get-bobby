@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Redirect</title>
+  <script type="text/javascript">
+    var userAgent = navigator.userAgent;
+
+    if (navigator.userAgent.match(/(?:iPhone|iPad|iPod)/i)) {
+      window.location = "https://goo.gl/ZRUkyb"; // iOS Version
+    } else if (userAgent.match(/android/i)) {
+      window.location = "https://goo.gl/5ZDaK4"; // Android version
+    } else {
+      window.location = "https://goo.gl/iuAnXw"; // Website version
+    }
+  </script>
+</head>
+<body>
+  <a href="http://www.bobby-app.com/" title="Découvrez l'application mobile Bobby">Bobby</a>
+</body>
+</html>
